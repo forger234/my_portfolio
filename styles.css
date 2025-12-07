@@ -599,7 +599,7 @@ pre code {
  #home {
     min-height: 100vh;
     /* background-image: url('../img/your-image.jpg'); */
-   background-image: url('/professional-background-gpyiwar9suq43xgr.webp');
+   background-image: url('./professional-background-gpyiwar9suq43xgr.webp');
 
     background-size: cover;
     background-position: center;
@@ -10064,3 +10064,4 @@ opacity: 0.15;
         .fade-up-element.delay-3 { transition-delay: 0.3s; }
         .fade-up-element.delay-4 { transition-delay: 0.4s; }
         .fade-up-element.delay-5 { transition-delay: 0.5s; }
+
