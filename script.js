@@ -42,3 +42,36 @@ document.addEventListener('DOMContentLoaded', function() {
                 observer.observe(element);
             });            
 });
+// Loading animation
+window.addEventListener('load', function() {
+    const loading = document.getElementById('loading');
+    const loadingText = document.querySelector('.loading-text');
+    const phrases = ["Loading...", "Initializing...", "Almost there...", "Welcome!"];
+    let currentPhrase = 0;
+    
+    // Animate text changes
+    const textInterval = setInterval(() => {
+        loadingText.style.opacity = 0;
+        setTimeout(() => {
+            currentPhrase = (currentPhrase + 1) % phrases.length;
+            loadingText.textContent = phrases[currentPhrase];
+            loadingText.style.opacity = 1;
+        }, 300);
+    }, 800);
+    
+    // Hide loading after 2 seconds
+    setTimeout(() => {
+        clearInterval(textInterval);
+        loading.classList.add('fade-out');
+        
+        // Remove from DOM after animation completes
+        setTimeout(() => {
+            loading.style.display = 'none';
+            // Trigger any animations that should start after page load
+            // const fadeElements = document.querySelectorAll('.fade-up-element');
+            // fadeElements.forEach(el => {
+            //     el.classList.add('visible');
+            // });
+        }, 500);
+    }, 2000);
+});
