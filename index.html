@@ -8,7 +8,7 @@
     <meta content="HTML" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="./favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -35,10 +35,21 @@
             });
         })();
         </script>
-<script src="script.js"></script>
+<script src="./script.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Loading Animation -->
+<div id="loading">
+    <div class="loading-content">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+        </div>
+        <div class="loading-text"></div>
+    </div>
+</div>
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
         <a href="index.html" class="navbar-brand ml-lg-3">
@@ -68,21 +79,21 @@
         <div class="container">
 
             <div class="row align-items-center">
-                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="./collage.jpg" alt="">
-                </div>
-                <div class="col-lg-7 text-center text-lg-left">
-                    <h3 class="text-white font-weight-normal mb-3 fade-up-element" >Hello,I'm</h3>
-                    <h1 class="display-3 text-uppercase text-primary1 mb-2 fade-up-element delay-2" >Anila Thomas</h1>
-                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                <!-- <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0"> -->
+                    <!-- <img class="img-fluid w-100 rounded-circle shadow-sm" src="./collage.jpg" alt=""> -->
+                <!-- </div> -->
+                <div class="col-lg-7 text-center text-lg-left ">
+                    <h3 class="text-black font-weight-normal mb-3 fade-up-element text-dark font-weight-medium " >Hello,I'm</h3>
+                    <h1 class="display-3 text-uppercase text-primary1 mb-2 fade-up-element delay-2 text-dark" >Anila Thomas</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-dark "></h1>
                     <div class="typed-text d-none fade-up-element delay-3">Python Developer, Flutter Developer, UI/UX Designer, Web Developer, AI/ML Developer</div>
 
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="./Anila Thomas Resume.pdf" class="btn btn-outline-light mr-5 fade-up-element delay-4" target="_blank">Download CV</a>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5 ">
+                        <a href="/Anila Thomas Resume.pdf" class="btn btn-outline-light mr-5 fade-up-element delay-4 text-dark font-weight-medium" target="_blank">Download CV</a>
                         <button type="button" class="btn-play fade-up-element delay-2" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'});">
                             <span></span>
                         </button>
-                        <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block  fade-up-element delay-4">Watch My Work</h5> 
+                        <h5 class="font-weight-normal text-white m-0 ml-4  d-sm-block  fade-up-element delay-4 text-dark">Watch My Work</h5> 
                     </div>
                 </div>
             </div>
@@ -100,11 +111,11 @@
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="./clg1.jpg" alt="">
+                    <img class="img-fluid rounded w-100" src="./ani2.jpg" alt="">
                 </div>
                 <div class="col-lg-7">
                     <h3 class="mb-4 fade-up-element delay-3">I am Anila Thomas,</h3>
-                    <p>An aspiring app developer with a strong passion for mobile application development. Eager to apply my self-taught skills and knowledge, I approach problem-solving proactively and am committed to continuous improvement.I have a strong foundation and beyond academia,I'm actively engaged in student development initiatives...Through my acedmic life,I'm aiming to give my fellow students a sence the real world technology and how to achieve them. I thrive in dynamic environments where I can contribute to a team while expanding my technical expertise.</p>
+                    <p class="fade-up-element delay-4"> An aspiring developer with a strong interest in Artificial Intelligence, Machine Learning, and Python-based development. I actively build skills beyond academia through self-learning and hands-on projects, approaching problems proactively and with a growth mindset. Passionate about student development, I aim to bridge the gap between academic learning and real-world technology. I thrive in collaborative, dynamic environments while continuously expanding my technical expertise.</p>
                     <div class="row mb-3">
                         <div class="col-sm-6 py-2 fade-up-element"><h6>Name: <span class="text-secondary">Anila Thomas</span></h6></div>
                         <div class="col-sm-6 py-2 fade-up-element"><h6>Birthday: <span class="text-secondary">22 April 2004</span></h6></div>
@@ -288,9 +299,15 @@
                    
                 </div>
 
-
-                
                 <div class="col-lg-4 col-md-6 text-center mb-5 fade-up-element delay-2">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                       <i class="fa fa-2x fa-brain service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Machine Learning</h4>
+                    </div>
+                    <p>Unlock smart solutions with our custom-built Machine Learning services—data-driven models, predictive analytics, and AI systems tailored for your success.
+</p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5 fade-up-element delay-3">
                     <div class="d-flex align-items-center justify-content-center mb-4">
                         <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
                         <h4 class="font-weight-bold m-0">Web Development</h4>
@@ -306,14 +323,6 @@
                     <p>UI/UX design crafted for you—sleek, user-focused, and brand-aligned interfaces that elevate experience, boost engagement, and drive digital success.
 </p>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5 fade-up-element delay-3">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">App Development</h4>
-                    </div>
-                    <p>Custom app development built for you—intuitive design, robust performance, and scalable tech to turn your ideas into powerful, user-ready solutions.
-</p>
-                </div>
                 <div class="col-lg-4 col-md-6 text-center mb-5 fade-up-element delay-2">
                     <div class="d-flex align-items-center justify-content-center mb-4">
                         <i class="fa fa-2x fa-cloud-upload-alt service-icon bg-primary text-white mr-3"></i>
@@ -324,10 +333,10 @@
                 </div>
                 <div class="col-lg-4 col-md-6 text-center mb-5 fade-up-element delay-1">
                     <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-brain service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Machine Learning</h4>
+                     <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">App Development</h4>
                     </div>
-                    <p>Unlock smart solutions with our custom-built Machine Learning services—data-driven models, predictive analytics, and AI systems tailored for your success.
+                    <p>Custom app development built for you—intuitive design, robust performance, and scalable tech to turn your ideas into powerful, user-ready solutions.
 </p>
                 </div> 
             </div>
@@ -355,41 +364,95 @@
                         <img class="img-fluid rounded w-100" src="./project8.jpg" alt="">
                         <div class="portfolio-btn bg-primary1 d-flex align-items-center justify-content-center">
                              <a href="https://github.com/forger234/Text-To-Handwritten-Notes" 
-           class="text-white" 
-           style="font-size: 60px;"
-           target="_blank">
-           <i class="fab fa-github"></i>
-        </a>
-                        </div>
+                                class="text-white" 
+                                style="font-size: 60px;"
+                                target="_blank">
+                                <i class="fab fa-github"></i>
+                                </a>
+                        </div> 
                     </div>
+                  
+                           <p style="color: white; font-size: 24px; font-family: 'Schoolbell', cursive; ">Text-To-Handwritten-Notes</p>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
                     <div class="position-relative overflow-hidden mb-2 fade-up-element delay-2">
                         <img class="img-fluid rounded w-100" src="./project2.jpg" alt="">
                         <div class="portfolio-btn bg-primary1 d-flex align-items-center justify-content-center">
-                                             <a href="https://github.com/aleena6678/doublebell_bus_app" 
-           class="text-white" 
-           style="font-size: 60px;"
-           target="_blank">
-           <i class="fab fa-github"></i>
-        </a>
-                        </div>
+                                                            <a href="https://github.com/aleena6678/doublebell_bus_app" 
+                        class="text-white" 
+                        style="font-size: 60px;"
+                        target="_blank">
+                        <i class="fab fa-github"></i>
+                        </a>
+                        </div> 
                     </div>
+                    
+                           <p style="color: white; font-size: 24px; font-family: 'Schoolbell', cursive; ">Double Bell App</p>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
                     <div class="position-relative overflow-hidden mb-2 fade-up-element delay-1">
                         <img class="img-fluid rounded w-100" src="./project3.jpg" alt="">
                         <div class="portfolio-btn bg-primary1 d-flex align-items-center justify-content-center">
                           <a href="https://github.com/forger234/Chatbot" 
-           class="text-white" 
-           style="font-size: 60px;"
-           target="_blank">
-           <i class="fab fa-github"></i>
-        </a>  
+                            class="text-white" 
+                            style="font-size: 60px;"
+                            target="_blank">
+                            <i class="fab fa-github"></i>
+                            </a>  
+                        </div>
+                        
+                    </div>
+                    
+                           <p style="color: white; font-size: 24px; font-family: 'Schoolbell', cursive; ">Chatbot</p>
+                </div>
+                     <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                        <div class="position-relative overflow-hidden mb-2 fade-up-element delay-3">
+                        <img class="img-fluid rounded w-100" src="./healthcare.jpg" alt="">
+                        <div class="portfolio-btn bg-primary1 d-flex align-items-center justify-content-center">
+                             <a href="https://github.com/forger234/Breast_Cancer_Detection" 
+                                class="text-white" 
+                                style="font-size: 60px;"
+                                target="_blank">
+                                <i class="fab fa-github"></i>
+                                </a>
                         </div>
                     </div>
-                </div>
+                    
+                           <p style="color: white; font-size: 24px; font-family: 'Schoolbell', cursive; ">Breast Cancer Detection</p>
+                    
+                </div>  
+                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2 fade-up-element delay-2">
+                        <img class="img-fluid rounded w-100" src="./khadi.png" alt="">
+                        <div class="portfolio-btn bg-primary1 d-flex align-items-center justify-content-center">
+                                                            <a href="https://github.com/forger234/Khadi-e-commerse-website" 
+                        class="text-white" 
+                        style="font-size: 60px;"
+                        target="_blank">
+                        <i class="fab fa-github"></i>
+                        </a>
+                        </div>
                         
+                    </div>
+                    
+                               <p style="color: white; font-size: 24px; font-family: 'Schoolbell', cursive; ">Khadi Store</p>
+                </div>  
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2 fade-up-element delay-2">
+                        <img class="img-fluid rounded w-100" src="./data_vis.png" alt="">
+                        <div class="portfolio-btn bg-primary1 d-flex align-items-center justify-content-center">
+                                                            <a href="https://github.com/forger234/Data_Visualization" 
+                        class="text-white" 
+                        style="font-size: 60px;"
+                        target="_blank">
+                        <i class="fab fa-github"></i>
+                        </a>
+                        </div>
+                        
+                    </div>
+                    
+                               <p style="color: white; font-size: 24px; font-family: 'Schoolbell', cursive; ">Data Visualization</p>
+                </div> 
             </div>
         </div>
     </div>
@@ -499,4 +562,3 @@
 </body>
 
 </html>
-
