@@ -41,6 +41,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -10062,18 +10063,26 @@ opacity: 0.15;
             transform: translateY(30px);
             transition: opacity 0.8s ease-out, transform 0.8s ease-out;
         }
+.fade-right-element {
+            opacity: 0;
+            transform: translateX(-30px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
         
         .fade-up-element.visible {
             opacity: 1;
             transform: translateY(0);
         }
+        .fade-right-element.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
         
         /* Staggered animation delays */
         .fade-up-element.delay-1 { transition-delay: 0.1s; }
         .fade-up-element.delay-2 { transition-delay: 0.2s; }
-        .fade-up-element.delay-3 { transition-delay: 0.3s; }
-        .fade-up-element.delay-4 { transition-delay: 0.4s; }
-        .fade-up-element.delay-5 { transition-delay: 0.5s; }
+        .fade-up-element.delay-3 { transition-delay: 0.4s; }
+        .fade-up-element.delay-4 { transition-delay: 0.6s; }
 /* Loading Animation */
 #loading {
     position: fixed;
@@ -10100,13 +10109,13 @@ opacity: 0.15;
     border: 4px solid transparent;
     border-top-color: #0BCEAF;
     border-radius: 50%;
-    animation: spin 1s linear infinite;
+    animation: spin 2s linear infinite;
 }
 
 .loader-circle:nth-child(1) {
     width: 80px;
     height: 80px;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 
 .loader-circle:nth-child(2) {
@@ -10114,7 +10123,7 @@ opacity: 0.15;
     height: 60px;
     top: 10px;
     left: 10px;
-    animation-duration: 1.2s;
+    animation-duration: 2.1s;
     border-top-color: #fff;
 }
 
@@ -10123,15 +10132,21 @@ opacity: 0.15;
     height: 40px;
     top: 20px;
     left: 20px;
-    animation-duration: 1.4s;
+    animation-duration: 2.2s;
     border-top-color: #0BCEAF;
 }
 
 @keyframes spin {
-    0% {
+    0%,100% {
         transform: rotate(0deg);
     }
-    100% {
+    25% {
+        transform: rotate(360deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
         transform: rotate(360deg);
     }
 }
