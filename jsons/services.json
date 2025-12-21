@@ -1,0 +1,34 @@
+{
+    "my_services": [
+        {
+            "icon": "fas fa-magic fa-2x ",
+            "title": "AI-Powered Solutions",
+            "description": "AI-powered solutions tailored for you—smart automation, data insights, and custom tools to boost growth, efficiency, and innovation. Built for success."
+        },
+        {
+            "icon": "fa fa-2x fa-brain ",
+            "title": "Machine Learning",
+            "description": "Unlock smart solutions with our custom-built Machine Learning services—data-driven models, predictive analytics, and AI systems tailored for your success."
+        },
+        {
+            "icon": "fa fa-2x fa-laptop-code ",
+            "title": "Web Development",
+            "description": "Crafting stunning, responsive websites tailored to your brand. From design to deployment, I build fast, secure, and SEO-friendly web solutions."
+        },
+        {
+            "icon": "fa fa-2x fa-pencil-ruler ",
+            "title": "UI/UX Designing",
+            "description": "UI/UX design crafted for you—sleek, user-focused, and brand-aligned interfaces that elevate experience, boost engagement, and drive digital success."
+        },
+        {
+            "icon": "fa fa-2x fa-cloud-upload-alt ",
+            "title": "Cloud Computing",
+            "description": "Unlock agility with cloud computing: scalable storage, secure backups, AI power, and real-time collaboration—all built to elevate your business growth."
+        },
+        {
+            "icon": "fab fa-2x fa-android ",
+            "title": "App Development",
+            "description": "Custom app development built for you—intuitive design, robust performance, and scalable tech to turn your ideas into powerful, user-ready solutions."
+        }
+    ]
+}

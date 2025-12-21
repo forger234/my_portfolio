@@ -1,0 +1,36 @@
+{
+    "my_skills": [
+        {
+        "name": "PYTHON/DJANGO",
+        "proficiency": 95
+        },
+        {
+        "name": "C/C++",
+        "proficiency": 90
+        },
+        {
+        "name": "JAVA/OOPS",
+        "proficiency": 65
+        },
+        {
+        "name": "UI/UX DESIGNING",
+        "proficiency": 90
+        },
+        {
+        "name": "FLUTTER/DART",
+        "proficiency": 50
+        },
+        {
+        "name": "HTML/CSS/JS",
+        "proficiency": 95
+        },
+        {
+        "name": "AI/ML",
+        "proficiency": 75
+        },
+        {
+        "name": "AWS",
+        "proficiency": 65
+        }  
+    ]
+}

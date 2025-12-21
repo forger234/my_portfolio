@@ -1,0 +1,34 @@
+{
+    "my_projects": [
+        {
+            "description": "Text To Handwritten Notes",
+            "image": "project8.jpg",
+            "link": "https://github.com/forger234/Text-To-Handwritten-Notes" 
+        },
+        {
+            "description": "Double Bell App",
+            "image": "project2.jpg",
+            "link": "https://github.com/aleena6678/doublebell_bus_app"
+        },
+        {
+            "description": "Chatbot",
+            "image": "project3.jpg",
+            "link": "https://github.com/forger234/Chatbot"
+        },
+        {
+            "description": "Breast Cancer Detection",
+            "image": "healthcare.jpg",
+            "link": "https://github.com/forger234/Breast_Cancer_Detection"
+        },
+        {
+            "description": "Khadi E-commerse Website",
+            "image": "khadi.png",
+            "link": "https://github.com/forger234/Khadi-e-commerse-website"
+        },
+        {
+            "description": "Data Visualization",
+            "image": "data_vis.png",
+            "link": "https://github.com/forger234/Data_Visualization"
+        }
+    ]
+}

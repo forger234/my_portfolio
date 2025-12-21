@@ -1,0 +1,26 @@
+{
+    "education":[
+        {
+        "degrees":"Graduate In CSE",
+        "institution":"University of College of Engineering, Thodupuzha",
+        "year":"2022 - 2026",
+        "description":"Studied core subjects like Data Structures, Algorithms, Computer Networks, Operating Systems, and DBMS, while gaining proficiency in C, C++, Java, and Python. As Joint Convenor of the Robotics Club for a year, led team coordination and project management, enhancing leadership, collaboration, and technical problem-solving skills through successful robotics initiatives."
+    },
+    {
+        "degrees":"Higher Secondary Education",
+        "institution":"St. Aloysius Higher Secondary School, Thrissur",
+        "year":"2020 - 2022",
+        "description":"Completed Higher Secondary Education with a focus on Computer Science, Mathematics, and Physics. Achieved strong academic performance while actively participating in extracurricular activities such as coding competitions and tech clubs, which helped develop problem-solving skills and a passion for technology."
+    }
+],
+"my_exp":[
+    {
+        "title":"Cloud Computing With AI Integration",
+        "organization":"NarrowLabs Private Limited",
+        "year":"2025,June-August",
+        "description":"As an intern at Narrowlabs, I contributed to chatbot development, system management, and enhancing front-end interfaces. I worked on building and deploying resume portals using AWS, gaining hands-on experience with cloud computing, API creation, and AWS services like Lambda functions. This role deepened my understanding of scalable web solutions and sharpened my skills in both backend and frontend development within a cloud environment."
+    }
+   
+]
+
+}
