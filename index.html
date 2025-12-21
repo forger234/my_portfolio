@@ -52,25 +52,25 @@
 </div>
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-        <a href="index.html" class="navbar-brand ml-lg-3">
-            <h1 class="m-0 display-5" style="color: #fff;"><span class="text-primary">Port</span>Folio</h1>
+        <a href="#" onclick="setTimeout(() => { location.reload(); }, 1500);" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5" style="color: #fff;"><span class="text-primary">Anila</span>Thomas</h1>
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
             <div class="navbar-nav m-auto py-0">
-                <a href="#home" class="nav-item nav-link active" onclick="document.getElementById('home').scrollIntoView({behavior: 'smooth'});">Home</a>
-                <a href="#about" class="nav-item nav-link" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">About</a>
-                <a href="#qualification" class="nav-item nav-link" onclick="document.getElementById('qualification').scrollIntoView({behavior: 'smooth'});">Quality</a>
-                <a href="#skill" class="nav-item nav-link" onclick="document.getElementById('skill').scrollIntoView({behavior: 'smooth'});">Skills</a>
-                <a href="#service" class="nav-item nav-link" onclick="document.getElementById('service').scrollIntoView({behavior: 'smooth'});">Services</a>
-                <a href="#portfolio" class="nav-item nav-link" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'});">Projects</a>
-                <a href="#contact" class="nav-item nav-link" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});">Contact</a>
+                <a href="#home" class="nav-item nav-link active fade-up-element delay-1" onclick="document.getElementById('home').scrollIntoView({behavior: 'smooth'});">Home</a>
+                <a href="#about" class="nav-item nav-link fade-up-element delay-2" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">About</a>
+                <a href="#qualification" class="nav-item nav-link fade-up-element delay-3" onclick="document.getElementById('qualification').scrollIntoView({behavior: 'smooth'});">Quality</a>
+                <a href="#skill" class="nav-item nav-link fade-up-element delay-4" onclick="document.getElementById('skill').scrollIntoView({behavior: 'smooth'});">Skills</a>
+                <a href="#service" class="nav-item nav-link fade-up-element delay-3" onclick="document.getElementById('service').scrollIntoView({behavior: 'smooth'});">Services</a>
+                <a href="#portfolio" class="nav-item nav-link fade-up-element delay-2" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'});">Projects</a>
+                <a href="#contact" class="nav-item nav-link fade-up-element delay-1" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});">Contact</a>
                  <!-- <a href="#testimonial" class="nav-item nav-link">Review</a>  -->
                 <!-- <a href="#blog" class="nav-item nav-link">Blog</a> -->
             </div>
-            <a href="https://mail.google.com/mail/u/0/?fs=1&to=anilathomas2019@gmail.com&su=Msg+from+Resume&body=Hello,&tf=cm" target="_blank" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
+            <a href="https://mail.google.com/mail/u/0/?fs=1&to=anilathomas2019@gmail.com&su=Msg+from+Resume&body=Hello,&tf=cm" target="_blank" class="fade-up-element delay-4 btn btn-outline-primary d-none d-lg-block">Hire Me</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -85,15 +85,15 @@
                 <div class="col-lg-7 text-center text-lg-left ">
                     <h3 class="text-black font-weight-normal mb-3 fade-up-element text-dark font-weight-medium " >Hello,I'm</h3>
                     <h1 class="display-3 text-uppercase text-primary1 mb-2 fade-up-element delay-2 text-dark" >Anila Thomas</h1>
-                    <h1 class="typed-text-output d-inline font-weight-lighter text-dark "></h1>
-                    <div class="typed-text d-none fade-up-element delay-3">Python Developer, Flutter Developer, UI/UX Designer, Web Developer, AI/ML Developer</div>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-dark fade-up-element delay-3"></h1>
+                    <div class="typed-text d-none " id="developer">Python Developer, ML Developer, AI Developer, Web Developer, UI/UX Designer, Flutter Developer</div>
 
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5 ">
-                        <a href="/Anila Thomas Resume.pdf" class="btn btn-outline-light mr-5 fade-up-element delay-4 text-dark font-weight-medium" target="_blank">Download CV</a>
-                        <button type="button" class="btn-play fade-up-element delay-2" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'});">
+                        <a href="./Anila Thomas Resume.pdf" class="btn btn-outline-light mr-5 fade-up-element delay-2 text-dark font-weight-medium" download="Anila Thomas" target="_blank">Download CV</a>
+                        <button type="button" class="btn-play" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'});">
                             <span></span>
                         </button>
-                        <h5 class="font-weight-normal text-white m-0 ml-4  d-sm-block  fade-up-element delay-4 text-dark">Watch My Work</h5> 
+                        <h5 class="font-weight-normal text-white m-0 ml-4  d-sm-block  fade-right-element delay-4 text-dark">Watch My Work</h5> 
                     </div>
                 </div>
             </div>
@@ -115,16 +115,16 @@
                 </div>
                 <div class="col-lg-7">
                     <h3 class="mb-4 fade-up-element delay-3">I am Anila Thomas,</h3>
-                    <p class="fade-up-element delay-4"> An aspiring developer with a strong interest in Artificial Intelligence, Machine Learning, and Python-based development. I actively build skills beyond academia through self-learning and hands-on projects, approaching problems proactively and with a growth mindset. Passionate about student development, I aim to bridge the gap between academic learning and real-world technology. I thrive in collaborative, dynamic environments while continuously expanding my technical expertise.</p>
+                    <p class="fade-up-element delay-4" id="about_para"></p>
                     <div class="row mb-3">
                         <div class="col-sm-6 py-2 fade-up-element"><h6>Name: <span class="text-secondary">Anila Thomas</span></h6></div>
                         <div class="col-sm-6 py-2 fade-up-element"><h6>Birthday: <span class="text-secondary">22 April 2004</span></h6></div>
-                        <div class="col-sm-6 py-2 fade-up-element delay-1"><h6>Degree: <span class="text-secondary">Graduate</span></h6></div>
-                        <div class="col-sm-6 py-2 fade-up-element delay-1"><h6>Experience: <span class="text-secondary">Fresher</span></h6></div>
+                        <div class="col-sm-6 py-2 fade-up-element delay-1"  ><h6>Degree: <span class="text-secondary" id="degree"></span></h6></div>
+                        <div class="col-sm-6 py-2 fade-up-element delay-1" ><h6>Experience: <span class="text-secondary" id="experience"></span></h6></div>
                         <div class="col-sm-6 py-2 fade-up-element delay-2"><h6>Phone: <span class="text-secondary">+91-8590826865</span></h6></div>
                         <div class="col-sm-6 py-2 fade-up-element delay-2"><h6>Email: <span class="text-secondary">anilathomas2019@gmail.com</span></h6></div>
                         <div class="col-sm-6 py-2 fade-up-element delay-3"><h6>Address: <span class="text-secondary">Chirayath Athannikal(H),Thrissur</span></h6></div>
-                        <div class="col-sm-6 py-2 fade-up-element delay-3"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
+                        <div class="col-sm-6 py-2 fade-up-element delay-3" ><h6>Freelance: <span class="text-secondary" id="freelance"></span></h6></div>
                     </div>
                     <a href="https://mail.google.com/mail/u/0/?fs=1&to=anilathomas2019@gmail.com&su=Msg+from+Resume&body=Hello,&tf=cm" target="_blank" class="btn btn-outline-primary mr-4 fade-up-element delay-4">Hire Me</a>
                     <a href="https://www.linkedin.com/in/anila-thomas-a31469276/" target="_blank" class="btn btn-outline-primary fade-up-element delay-4">Know Me More</a>
@@ -145,33 +145,14 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <h3 class="mb-4 fade-up-element delay-1">My Education</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1 fade-up-element delay-2">Graduate In CSE</h5>
-                            <p class="mb-2 fade-up-element delay-3"><strong>University College Of Engineering</strong> | <small>2022 - 2026</small></p>
-                            <p class=" fade-up-element delay-4">Studied core subjects like Data Structures, Algorithms, Computer Networks, Operating Systems, and DBMS, while gaining proficiency in C, C++, Java, and Python. As Joint Convenor of the Robotics Club for a year, led team coordination and project management, enhancing leadership, collaboration, and technical problem-solving skills through successful robotics initiatives.
-</p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1 fade-up-element delay-2">Higher Secondary Education</h5>
-                            <p class="mb-2 fade-up-element delay-3"><strong>St.Aloysious HSS Elthuruth</strong> | <small>2020 - 2022</small></p>
-                            <p class=" fade-up-element delay-4">Completed Higher Secondary Education with a strong focus on Mathematics, Physics, Chemistry, and Computer Science, achieving 94.0%. Gained early exposure to coding and developed a solid foundation in C++, JavaScript, HTML, CSS, and DBMS, sparking a strong interest in software development and problem-solving from a young age.
-</p>
-                        </div>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2" id="education">
+                        
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <h3 class="mb-4 fade-up-element delay-1">My Expericence</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1 fade-up-element delay-2">Cloud Computing With AI Integeration</h5>
-                            <p class="mb-2 fade-up-element delay-3"><strong>NarrowLabs Private Limited Company</strong> | <small> 2025 , June-August</small></p>
-                            <p class=" fade-up-element delay-4">As an intern at Narrowlabs, I contributed to chatbot development, system management, and enhancing front-end interfaces. I worked on building and deploying resume portals using AWS, gaining hands-on experience with cloud computing, API creation, and AWS services like Lambda functions. This role deepened my understanding of scalable web solutions and sharpened my skills in both backend and frontend development within a cloud environment.
-</p>
-                        </div>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2" id="my_exp">
+                        
                         <div class="position-relative mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
                             <h5 class="font-weight-bold mb-1 fade-up-element delay-2">App Developer</h5>
@@ -193,87 +174,8 @@
                 <h1 class="display-1 text-uppercase text-white1 fade-up-element " style="-webkit-text-stroke: 2px #fff;">Skills</h1>
                 <h1 class="position-absolute text-uppercase text-primary  fade-up-element delay-2">My Skills</h1>
             </div>
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                                    <div class="skill mb-4 fade-up-element delay-1">
-                    <div class="d-flex justify-content-between">
-                        <h6 class="font-weight-bold">PYTHON/DJANGO</h6>
-                        <h6 class="font-weight-bold">95%</h6>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar"
-                            style="width: 0%;" data-width="95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                        </div>
-                    </div>
-                </div>
-
-                    <div class="skill mb-4 fade-up-element delay-2">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">C/C++</h6>
-                            <h6 class="font-weight-bold">90%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" 
-                            style="width: 0%;" data-width="90%"  aria-valuemin="90" aria-valuemax="0" arial-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4 fade-up-element delay-3">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">JAVA/OOPS</h6>
-                            <h6 class="font-weight-bold">65%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width: 0%;" data-width="65%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                         <div class="skill mb-4 fade-up-element delay-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">UI/UX Designing</h6>
-                            <h6 class="font-weight-bold">90%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar  bg-primary" role="progressbar"  style="width: 0%;" data-width="90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="skill mb-4 fade-up-element delay-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">FLUTTER/DART</h6>
-                            <h6 class="font-weight-bold">50%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar  bg-primary" role="progressbar" style="width: 0%;" data-width="50%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4 fade-up-element delay-3">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">HTML/CSS</h6>
-                            <h6 class="font-weight-bold">95%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar  bg-primary" role="progressbar" style="width: 0%;" data-width="95%"  aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4 fade-up-element delay-2">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">AI/ML</h6>
-                            <h6 class="font-weight-bold">75%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar  bg-primary" role="progressbar" style="width: 0%;" data-width="75%"  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                                        <div class="skill mb-4 fade-up-element delay-1">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">AWS Lambda/API</h6>
-                            <h6 class="font-weight-bold">65%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar  bg-primary" role="progressbar" style="width: 0%;" data-width="65%"  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row align-items-center" id="my_skills">
+                
             </div>
         </div>
     </div>
@@ -287,58 +189,8 @@
                 <h1 class="display-1 text-uppercase text-white1  fade-up-element" style="-webkit-text-stroke: 2px #fff;">Service</h1>
                 <h1 class="position-absolute text-uppercase text-primary fade-up-element delay-2">My Services</h1>
             </div>
-            <div class="row pb-3">
-<div class="col-lg-4 col-md-6 text-center mb-5 fade-up-element delay-1">
-                    <div class="d-flex align-items-center justify-content-center mb-4 ">
-                        <i class="fas fa-magic fa-2x service-icon bg-primary text-white mr-3"></i>
+            <div class="row pb-3" id="my_services">
 
-                        <h4 class="font-weight-bold m-0">AI-Powered Solutions</h4>
-                    </div>
-                    <p>AI-powered solutions tailored for you—smart automation, data insights, and custom tools to boost growth, efficiency, and innovation. Built for success.
-</p>
-                   
-                </div>
-
-                <div class="col-lg-4 col-md-6 text-center mb-5 fade-up-element delay-2">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                       <i class="fa fa-2x fa-brain service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Machine Learning</h4>
-                    </div>
-                    <p>Unlock smart solutions with our custom-built Machine Learning services—data-driven models, predictive analytics, and AI systems tailored for your success.
-</p>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5 fade-up-element delay-3">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Web Development</h4>
-                    </div>
-                    <p>Crafting stunning, responsive websites tailored to your brand. From design to deployment, I build fast, secure, and SEO-friendly web solutions.
-</p>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5 fade-up-element delay-3">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-pencil-ruler service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">UI/UX Designing</h4>
-                    </div>
-                    <p>UI/UX design crafted for you—sleek, user-focused, and brand-aligned interfaces that elevate experience, boost engagement, and drive digital success.
-</p>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5 fade-up-element delay-2">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-cloud-upload-alt service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Cloud Computing</h4>
-                    </div>
-                    <p>Unlock agility with cloud computing: scalable storage, secure backups, AI power, and real-time collaboration—all built to elevate your business growth.
-</p>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5 fade-up-element delay-1">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                     <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">App Development</h4>
-                    </div>
-                    <p>Custom app development built for you—intuitive design, robust performance, and scalable tech to turn your ideas into powerful, user-ready solutions.
-</p>
-                </div> 
             </div>
         </div>
     </div>
@@ -358,101 +210,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2 fade-up-element delay-3">
-                        <img class="img-fluid rounded w-100" src="./project8.jpg" alt="">
-                        <div class="portfolio-btn bg-primary1 d-flex align-items-center justify-content-center">
-                             <a href="https://github.com/forger234/Text-To-Handwritten-Notes" 
-                                class="text-white" 
-                                style="font-size: 60px;"
-                                target="_blank">
-                                <i class="fab fa-github"></i>
-                                </a>
-                        </div> 
-                    </div>
-                  
-                           <p style="color: white; font-size: 24px; font-family: 'Schoolbell', cursive; ">Text-To-Handwritten-Notes</p>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2 fade-up-element delay-2">
-                        <img class="img-fluid rounded w-100" src="./project2.jpg" alt="">
-                        <div class="portfolio-btn bg-primary1 d-flex align-items-center justify-content-center">
-                                                            <a href="https://github.com/aleena6678/doublebell_bus_app" 
-                        class="text-white" 
-                        style="font-size: 60px;"
-                        target="_blank">
-                        <i class="fab fa-github"></i>
-                        </a>
-                        </div> 
-                    </div>
-                    
-                           <p style="color: white; font-size: 24px; font-family: 'Schoolbell', cursive; ">Double Bell App</p>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2 fade-up-element delay-1">
-                        <img class="img-fluid rounded w-100" src="./project3.jpg" alt="">
-                        <div class="portfolio-btn bg-primary1 d-flex align-items-center justify-content-center">
-                          <a href="https://github.com/forger234/Chatbot" 
-                            class="text-white" 
-                            style="font-size: 60px;"
-                            target="_blank">
-                            <i class="fab fa-github"></i>
-                            </a>  
-                        </div>
-                        
-                    </div>
-                    
-                           <p style="color: white; font-size: 24px; font-family: 'Schoolbell', cursive; ">Chatbot</p>
-                </div>
-                     <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                        <div class="position-relative overflow-hidden mb-2 fade-up-element delay-3">
-                        <img class="img-fluid rounded w-100" src="./healthcare.jpg" alt="">
-                        <div class="portfolio-btn bg-primary1 d-flex align-items-center justify-content-center">
-                             <a href="https://github.com/forger234/Breast_Cancer_Detection" 
-                                class="text-white" 
-                                style="font-size: 60px;"
-                                target="_blank">
-                                <i class="fab fa-github"></i>
-                                </a>
-                        </div>
-                    </div>
-                    
-                           <p style="color: white; font-size: 24px; font-family: 'Schoolbell', cursive; ">Breast Cancer Detection</p>
-                    
-                </div>  
-                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2 fade-up-element delay-2">
-                        <img class="img-fluid rounded w-100" src="./khadi.png" alt="">
-                        <div class="portfolio-btn bg-primary1 d-flex align-items-center justify-content-center">
-                                                            <a href="https://github.com/forger234/Khadi-e-commerse-website" 
-                        class="text-white" 
-                        style="font-size: 60px;"
-                        target="_blank">
-                        <i class="fab fa-github"></i>
-                        </a>
-                        </div>
-                        
-                    </div>
-                    
-                               <p style="color: white; font-size: 24px; font-family: 'Schoolbell', cursive; ">Khadi Store</p>
-                </div>  
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2 fade-up-element delay-2">
-                        <img class="img-fluid rounded w-100" src="./data_vis.png" alt="">
-                        <div class="portfolio-btn bg-primary1 d-flex align-items-center justify-content-center">
-                                                            <a href="https://github.com/forger234/Data_Visualization" 
-                        class="text-white" 
-                        style="font-size: 60px;"
-                        target="_blank">
-                        <i class="fab fa-github"></i>
-                        </a>
-                        </div>
-                        
-                    </div>
-                    
-                               <p style="color: white; font-size: 24px; font-family: 'Schoolbell', cursive; ">Data Visualization</p>
-                </div> 
+            <div class="row portfolio-container" id="my_projects">
+                 
             </div>
         </div>
     </div>
@@ -493,8 +252,9 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
-                                <button class="btn btn-outline-primary fade-up-element delay-1" type="submit" onclick="sendMail()" id="sendMessageButton">Send
-                                    Message</button>
+                                <button class="btn btn-outline-primary fade-up-element delay-1" type="submit" onclick="sendMail()" id="sendMessageButton">
+                                    Send Message
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -514,7 +274,7 @@
                 <a class="btn btn-light btn-social mr-2 fade-up-element delay-2" href="https://www.linkedin.com/in/anila-thomas-a31469276/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 <a class="btn btn-light btn-social fade-up-element delay-1" href="https://www.instagram.com/_anila_142_" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
-            <div class="d-flex justify-content-center mb-3 fade-up-element delay-4">
+            <!-- <div class="d-flex justify-content-center mb-3 fade-up-element delay-4">
                 <a class="text-white" href="#">Privacy</a>
                 <span class="px-3">|</span>
                 <a class="text-white" href="#">Terms</a>
@@ -522,9 +282,8 @@
                 <a class="text-white" href="#">FAQs</a>
                 <span class="px-3">|</span>
                 <a class="text-white" href="#">Help</a>
-            </div>
-            <p class="m-0 fade-up-element delay-4">&copy; <a class="text-white font-weight-bold" href="#">Anila Thomas</a>. All Rights Reserved. <a class="text-white font-weight-bold"></a>
-            </p>
+            </div> -->
+            <p class="m-0 fade-up-element">&copy; <a class="text-white font-weight-bold" href="#">Anila Thomas</a>. All Rights Reserved. <a class="text-white font-weight-bold"></a></p>
         </div>
     </div>
     <!-- Footer End -->
@@ -547,8 +306,20 @@
 
     <!-- Template Javascript -->
     <script src="./main.js"></script>
-    <script>
-  const roles = document.querySelector('.typed-text').textContent.split(',').map(item => item.trim()).filter(Boolean);
+    <!-- <script>
+        let dd="";
+        document.addEventListener('DOMContentLoaded', async () => {
+        try {
+    const homeRes=await fetch('./jsons/home.json').then(r => r.json());
+    dd =  homeRes.developer.join(', ');
+    document.getElementById('developer').innerHTML = dd;
+    console.log(dd);
+} catch (error) {
+    console.error('Error fetching home.json:', error);
+}
+            document.getElementById('developer').textContent = dd;
+});
+  const roles = dd.split(',').map(item => item.trim()).filter(Boolean);
 
   new Typed('#typed-output', {
     strings: roles,
@@ -557,7 +328,7 @@
     backDelay: 1500,
     loop: true
   });
-</script>
+</script> -->
 
 </body>
 
