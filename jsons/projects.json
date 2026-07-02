@@ -7,8 +7,8 @@
         },
         {
             "description": "Health Prediction System",
-            "image": "",
-            "link": "https://github.com/forger234/Data_Visualization"
+            "image": "health_prediction.png",
+            "link": "https://github.com/forger234/health-prediction-system-ai"
         },
         {
             "description": "Chatbot",
@@ -21,9 +21,14 @@
             "link": "https://github.com/forger234/Text-To-Handwritten-Notes" 
         },
         {
-            "description": "Khadi E-commerse Website",
-            "image": "khadi.png",
-            "link": "https://github.com/forger234/Khadi-e-commerse-website"
+            "description": "Sahasam – Web-Based Adventure Game (Prototype)",
+            "image": "https://godsonmd.github.io/Godsonmd/images/sahasam-thumbnail.png",
+            "link": "https://github.com/forger234/Sahasam-Game"
+        },
+         {
+            "description": "AI For Everyone",
+            "image": "ai_for.png",
+            "link": "https://github.com/forger234/Ai_4_Everyone" 
         },
        {
             "description": "Double Bell App",
