@@ -1,6 +1,6 @@
 {
     "my_projects": [
-         {
+        {
             "description": "Breast Cancer Detection",
             "image": "healthcare.jpg",
             "link": "https://github.com/forger234/Breast_Cancer_Detection"
@@ -18,22 +18,22 @@
         {
             "description": "Text To Handwritten Notes",
             "image": "project8.jpg",
-            "link": "https://github.com/forger234/Text-To-Handwritten-Notes" 
+            "link": "https://github.com/forger234/Text-To-Handwritten-Notes"
         },
         {
             "description": "Sahasam – Web-Based Adventure Game (Prototype)",
             "image": "https://godsonmd.github.io/Godsonmd/images/sahasam-thumbnail.png",
             "link": "https://github.com/forger234/Sahasam-Game"
         },
-         {
+        {
             "description": "AI For Everyone",
             "image": "ai_for.png",
-            "link": "https://github.com/forger234/Ai_4_Everyone" 
+            "link": "https://github.com/forger234/Ai_4_Everyone"
         },
-       {
+        {
             "description": "Double Bell App",
             "image": "project2.jpg",
             "link": "https://github.com/aleena6678/doublebell_bus_app"
-        },
+        }
     ]
 }
