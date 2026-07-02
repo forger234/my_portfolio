@@ -2,22 +2,22 @@
     "my_skills": [
         {
         "name": "PYTHON/DJANGO",
-        "proficiency": 95
-        },
-        {
-        "name": "C/C++",
         "proficiency": 90
         },
         {
+        "name": "C/C++",
+        "proficiency": 95
+        },
+        {
         "name": "JAVA/OOPS",
-        "proficiency": 65
+        "proficiency": 60
         },
         {
         "name": "UI/UX DESIGNING",
         "proficiency": 90
         },
         {
-        "name": "FLUTTER/DART",
+        "name": "GIT/GITHUB",
         "proficiency": 50
         },
         {
@@ -25,7 +25,7 @@
         "proficiency": 95
         },
         {
-        "name": "AI/ML",
+        "name": "AI/ML/DL",
         "proficiency": 75
         },
         {
